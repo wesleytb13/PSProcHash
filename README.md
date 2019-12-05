@@ -1,1 +1,1 @@
-This is a place holder README for this project. 
+This is a project that will run in the background on a network. It will scan the network for all active hosts. As it finds an active host it will pull an SHA1 hash of all running processes on that host and then compare those hashes to known malicious hashes located on VirusTotal and trigger an alert if a possible malicious hash is found. 

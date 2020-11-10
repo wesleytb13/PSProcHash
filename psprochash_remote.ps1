@@ -1,4 +1,4 @@
-﻿foreach ($proc in Invoke-Command -ComputerName IT01938 -ScriptBlock {Get-Process})
+﻿foreach ($proc in Invoke-Command -ComputerName [ComputerName] -ScriptBlock {Get-Process})
     {
     try
         {
